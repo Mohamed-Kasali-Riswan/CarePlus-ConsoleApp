@@ -1,6 +1,6 @@
 package features.admin;
 
-public interface IAdminModel {
+interface IAdminModel {
 
 	void init();
 
