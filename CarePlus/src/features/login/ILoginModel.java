@@ -1,6 +1,6 @@
 package features.login;
 
-public interface ILoginModel {
+interface ILoginModel {
 
 	void init();
 
