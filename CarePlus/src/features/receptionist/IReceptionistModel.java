@@ -1,6 +1,6 @@
 package features.receptionist;
 
-public interface IReceptionistModel {
+interface IReceptionistModel {
 
 	void init();
 
