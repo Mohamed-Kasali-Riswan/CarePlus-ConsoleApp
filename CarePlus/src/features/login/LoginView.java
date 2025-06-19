@@ -25,9 +25,9 @@ public class LoginView extends BaseView implements ILoginView {
 		while(flag) {
 			
 			try {
-				System.out.print("1. Admin Login ");
-				System.out.print("2. Receptionist Login");
-				System.out.print("3. Exit App");
+				System.out.println("1. Admin Login ");
+				System.out.println("2. Receptionist Login");
+				System.out.println("3. Exit App");
 				System.out.print("Enter the option:");
 				int option = scanner.nextInt();
 				switch (option) {
