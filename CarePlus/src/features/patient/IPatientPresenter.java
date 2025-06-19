@@ -4,7 +4,7 @@ import java.util.List;
 
 import repository.dto.Patient;
 
-public interface IPatientPresenter {
+interface IPatientPresenter {
 	
 	// Methods in Model
 
