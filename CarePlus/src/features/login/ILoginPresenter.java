@@ -1,6 +1,6 @@
 package features.login;
 
-public interface ILoginPresenter {
+interface ILoginPresenter {
 
 	// Methods in Model
 
