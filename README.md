@@ -10,7 +10,7 @@
 
 ## 👤 User Roles
 
-### ✅ Admin
+### ✅ Admin (The one & only)
 - Add/Delete Receptionists
 - Add Doctors
 - Modify Doctors' available time (start and end)
