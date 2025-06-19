@@ -1,6 +1,6 @@
 package features.admin;
 
-public interface IAdminPresenter {
+interface IAdminPresenter {
 	
 	// Method in View
 
