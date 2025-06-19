@@ -2,7 +2,7 @@ package features.patient;
 
 import repository.dto.Patient;
 
-public interface IPatientModel {
+interface IPatientModel {
 
 	void init();
 
