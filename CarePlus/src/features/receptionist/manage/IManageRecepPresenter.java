@@ -4,7 +4,7 @@ import java.util.List;
 
 import repository.dto.Receptionist;
 
-public interface IManageRecepPresenter {
+interface IManageRecepPresenter {
 
 	// Methods in Model
 
