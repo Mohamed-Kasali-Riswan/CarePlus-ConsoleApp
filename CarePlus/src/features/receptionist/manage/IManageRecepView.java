@@ -4,7 +4,7 @@ import java.util.List;
 
 import repository.dto.Receptionist;
 
-public interface IManageRecepView {
+interface IManageRecepView {
 
 	void proceedFeatures();
 
