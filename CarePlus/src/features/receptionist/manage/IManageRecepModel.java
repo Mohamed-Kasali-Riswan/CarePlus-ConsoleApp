@@ -2,7 +2,7 @@ package features.receptionist.manage;
 
 import repository.dto.Receptionist;
 
-public interface IManageRecepModel {
+interface IManageRecepModel {
 
 	void init();
 
