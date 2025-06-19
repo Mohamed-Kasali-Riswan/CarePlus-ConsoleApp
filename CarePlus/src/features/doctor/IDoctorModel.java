@@ -2,7 +2,7 @@ package features.doctor;
 
 import repository.dto.Doctor;
 
-public interface IDoctorModel {
+interface IDoctorModel {
 
 	void init();
 
