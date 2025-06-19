@@ -4,7 +4,7 @@ import java.util.List;
 
 import repository.dto.Doctor;
 
-public interface IDoctorView {
+interface IDoctorView {
 
 	void proceedFeatures();
 
