@@ -112,7 +112,8 @@ public class AppointmentView extends BaseView implements IAppointmentView {
 		app.setPatientId(getPatientId());
 		String docId = getDoctorId();
 		app.setDoctorId(docId);
-		app.setDate(getDate(0));
+		System.out.print("Press 0 to book today or Press the number of days after to book in future:");
+		app.setDate(getDate(getNumberOfDays()));
 		app.setTime(getTime(docId));
 
 		if (!presenter.isAlreadyfixed(app))
@@ -122,6 +123,14 @@ public class AppointmentView extends BaseView implements IAppointmentView {
 
 	}
 
+	private int getNumberOfDays() {
+		do {
+			int days = scanner.nextInt();
+			if(days<0 || days>10) System.out.println("Please enter valid days with a week!\nTry again:");
+			else return days;
+		}while(true);
+	}
+	
 	private byte getTime(String docId) {
 		System.out.println("Enter the Time :");
 		do {
