@@ -1,5 +1,10 @@
 use Careplus;
 
+-- I chose to use VARCHAR(10) for the admitDate and the Date of appointment attributes because, in this project, the date is only used for display purposes and not involved in any date-based operations like sorting, filtering, or calculating durations. 
+-- Since I’m not performing any processing or comparisons on the date, storing it as a string in the YYYY-MM-DD format keeps it simple and avoids unnecessary type conversions.
+-- However, in a real-world scenario where date manipulation is needed, I would definitely go with a proper DATE datatype.
+
+
 -- Table to store the details of the Doctors
 CREATE TABLE Doctor (
     id VARCHAR(20) PRIMARY KEY,
