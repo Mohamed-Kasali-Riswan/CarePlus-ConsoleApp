@@ -1,6 +1,6 @@
 package features.login;
 
-public interface ILoginView {
+interface ILoginView {
 
 	void proceedLoginOption();
 
