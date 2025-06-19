@@ -4,7 +4,7 @@ import java.util.List;
 
 import repository.dto.Appointment;
 
-public interface IReceptionistView {
+interface IReceptionistView {
 
 	void proceedFeatures();
 
