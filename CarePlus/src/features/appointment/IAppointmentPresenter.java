@@ -5,7 +5,7 @@ import java.util.List;
 import repository.dto.Appointment;
 import repository.dto.Patient;
 
-public interface IAppointmentPresenter {
+interface IAppointmentPresenter {
 	
 	// Methods in Model
 
