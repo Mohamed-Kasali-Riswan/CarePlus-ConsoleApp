@@ -4,7 +4,7 @@ import java.util.List;
 
 import repository.dto.Patient;
 
-public interface IPatientView {
+interface IPatientView {
 
 	void proceedFeatures();
 
