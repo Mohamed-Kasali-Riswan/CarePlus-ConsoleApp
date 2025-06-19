@@ -2,7 +2,7 @@ package features.appointment;
 
 import repository.dto.Appointment;
 
-public interface IAppointmentModel {
+interface IAppointmentModel {
 
 	void init();
 
