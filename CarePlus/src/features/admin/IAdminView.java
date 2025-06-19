@@ -1,6 +1,6 @@
 package features.admin;
 
-public interface IAdminView {
+interface IAdminView {
 
 	void proceedFeature();
 
