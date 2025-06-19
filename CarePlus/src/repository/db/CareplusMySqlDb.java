@@ -183,7 +183,8 @@ public class CareplusMySqlDb {
 	    }
 	    return list;
 	}
-	
+
+	// One Remove method
 	public void deleteReceptionist(String receptionistId) throws SQLException {
 	    String query = "DELETE FROM Receptionist WHERE id = ?";
 	    try (Connection conn = getConnection(); PreparedStatement ps = conn.prepareStatement(query)) {
